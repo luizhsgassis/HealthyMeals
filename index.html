@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+
+  <title>Healthy Meals</title>
+</head>
+<body>
+  <!-- page loader start -->
+  <div class="page-loader"></div>
+  <!-- page loader end -->
+
+  <!-- Scroll do botão -->
+  <div class="scroll-button">
+    <a href="#menu"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- Header Start -->
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="logo">
+          <a href="#"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <ul>
+            <li class="nav-item"><a href="#home">home</a></li>
+            <li class="nav-item"><a href="#menu">menu</a></li>
+            <li class="nav-item"><a href="#contact">meus contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- home section start -->
+  <section class="home-section" id="home">
+    <div class="home-bg"></div>
+    <div class="container">
+      <div class="row min-vh-100 align-items-center">
+        <div class="home-text" data-aos="fade-up" data-aos-duration="1000">
+          <h1>Healthy Meals</h1>
+          <p>Cardápio com as refeições diárias do Luiz</p>
+          <a href="#menu" class="btn btn-default">menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- home section end -->
+
+  <!-- menu section start -->
+  <section class="menu-section sec-padding" id="menu">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-title="do it yourself" data-aos="fade-up">menu</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="menu-tabs" data-aos="fade-up">
+          <button type="button" class="menu-tab-item active" data-target="#lanche">lanches rápidos</button>
+          <button type="button" class="menu-tab-item" data-target="#almoco">almoço</button>
+          <button type="button" class="menu-tab-item" data-target="#janta">janta</button>
+        </div>
+      </div>
+      <div class="row menu-tab-content active" id="lanche">
+        <div class="menu-item btn-sE" data-aos="fade-up-right">
+          <div class="menu-item-title">
+            <img src="./img/foods/smoothieEspinafre.jpeg" alt="menu item thumbnail">
+            <h3>smoothie de espinafre com banana</h3>
+          </div>
+        </div>
+        <div class="menu-item btn-yGBA" data-aos="fade-up-left">
+          <div class="menu-item-title">
+            <img src="./img/foods/yogurteGregoBlueberrieAmendoas.jpeg" alt="menu item thumbnail">
+            <h3>yogurte grego com blueberries e amêndoas</h3>
+          </div>
+        </div>
+        <div class="menu-item btn-sBCS" data-aos="fade-up-right">
+          <div class="menu-item-title">
+            <img src="./img/foods/smoothieFrutasVermelhas.jpeg" alt="menu item thumbnail">
+            <h3>smoothie de frutas vermelhas</h3>
+          </div>
+        </div>
+        <div class="menu-item btn-oPP" data-aos="fade-up-left">
+          <div class="menu-item-title">
+            <img src="./img/foods/ovoPimentaoPepino.jpeg" alt="menu item thumbnail">
+            <h3>ovo com pimentão e pepino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-tab-content" id="almoco">
+        <div class="menu-item btn-aFL" data-aos="fade-up-right">
+          <div class="menu-item-title">
+            <img src="./img/foods/arrosFrangoLegumes.jpeg" alt="menu item thumbnail">
+            <h3>arroz com frango e legumes</h3>
+          </div>
+        </div>
+        <div class="menu-item btn-hPAS" data-aos="fade-up-left">
+          <div class="menu-item-title">
+            <img src="./img/foods/hamburguerPeru.jpeg" alt="menu item thumbnail">
+            <h3>hambúrguer de peru com arroz e salada</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-tab-content" id="janta">
+        <div class="menu-item btn-fAFP" data-aos="fade-up-right">
+          <div class="menu-item-title">
+            <img src="./img/foods/frangoFeijãoPreto.jpeg" alt="menu item thumbnail">
+            <h3>frango com abobrinha e feijão preto</h3>
+          </div>
+        </div>
+        <div class="menu-item btn-sA" data-aos="fade-up-left">
+          <div class="menu-item-title">
+            <img src="./img/foods/saladaAtum.png" alt="menu item thumbnail">
+            <h3>salada de atum</h3>
+          </div>
+        </div>
+        <div class="menu-item btn-fFA" data-aos="fade-up-left">
+          <div class="menu-item-title">
+            <img src="./img/foods/frangoAntepasto.jpeg" alt="menu item thumbnail">
+            <h3>Filé de Frango com Antepasto</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- menu section end -->
+
+  <!-- food section start -->
+  <!-- Lanches Rápidos start -->
+  <!-- Smoothie Espinafre -->
+  <section class="food-section sec-padding sE" id="sE">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/smoothieEspinafre.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Smoothie de Espinafre com Banana</h3>
+          <p>
+            Whey - 25g<br>
+            Banana - 1<br>
+            Espinafre - 1 copo
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            212 Kcal, 32g(carboidratos), 2g(gorduras), 20g(proteinas), 65g(sódio), 4g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Yogurte Grego Blueberrie Amêndoas -->
+  <section class="food-section sec-padding yGBA" id="yGBA">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/yogurteGregoBlueberrieAmendoas.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Yogurte Grego com Blueberries e Amêndoas</h3>
+          <p>
+            Yogurte Grego - 1 copo<br>
+            Blueberries - 1 porção<br>
+            Nozes - 1 porção<br>
+            Canela - ½ colher<br>
+            Mel - 1 colher<br>
+            Aveia ou Granola - 1 colher
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strawberry Blueberry Cereal Smoothie -->
+  <section class="food-section sec-padding sBCS" id="sBCS">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/smoothieFrutasVermelhas.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Smoothie de Frutas Vermelhas</h3>
+          <p>
+            Frutas Vermelhas - 200g<br>
+            Leite de Amêndoas - 340ml<br>
+            Whey Protein - 1 Scoop
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ovo com Pimentão e Pepino -->
+  <section class="food-section sec-padding oPP" id="oPP">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/ovoPimentaoPepino.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Ovo com Pimentão e Pepino</h3>
+          <p>
+            Ovo - 4 unidades<br>
+            Pimentão Vermelho - 2 unidades<br>
+            Pepino - metade
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            427 Kcal, 31g(carboidratos), 21g(gorduras), 29g(proteinas), 299g(sódio), 9g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Lanches Rápidos end -->
+
+  <!-- Almoço start -->
+  <!-- Arros com Frango e Legumes -->
+  <section class="food-section sec-padding aFL" id="aFL">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/arrosFrangoLegumes.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Arroz com Frango e Legumes</h3>
+          <p>
+            Arroz Branco - 250g<br>
+            Vegetais - 1 copo<br>
+            Teriyaki Sauce - 2 colheres de sopa<br>
+            Peito de Frango - 250g
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            815 Kcal, 95g(carboidratos), 12g(gorduras), 71g(proteinas), 1850g(sódio), 3g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hambúrguer de Peru com Arroz e Salada -->
+  <section class="food-section sec-padding hPAS" id="hPAS">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/hamburguerPeru.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Hambúrguer de Peru com Arroz e Salada</h3>
+          <p>
+            Hambúrguer de Peru - 220g<br>
+            Arroz Branco - 200g<br>
+            Teriyaki Sauce - 1 colheres de sopa<br>
+            Cebola - ¼ do copo<br>
+            Couve - 1 copo<br>
+            Cogumelos - 1 copo<br>
+            Mix de Repolho com Cenoura - 85g
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            751 Kcal, 89g(carboidratos), 17g(gorduras), 53g(proteinas), 684g(sódio), 6g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Almoço end -->
+  <!-- Janta start -->
+  <!-- Frango com Abobrinha e Feijão Preto -->
+  <section class="food-section sec-padding fAFP" id="fAFP">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/frangoFeijãoPreto.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Frango com Abobrinha e Feijão Preto</h3>
+          <p>
+            Abobrinha Cortada - 1 copo<br>
+            Azeite de Oliva - 1 colher<br>
+            Filé de Frango - 250g<br>
+            Feijão Preto - ½ copo
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            568 Kcal, 23g(carboidratos), 23g(gorduras), 64g(proteinas), 819g(sódio), 8g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Salada de Atum -->
+  <section class="food-section sec-padding sA" id="sA">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/saladaAtum.png" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Salada de Atum</h3>
+          <p>
+            Espinafre - 1 copo<br>
+            Repolho - 1 copo<br>
+            Tomate - 1 médio<br>
+            Cogumelo - 1 copo<br>
+            Pepino - 1 copo<br>
+            Alface - 1 copo<br>
+            Atum em Lata - 1 unidade<br>
+            Salsão - 1 copo<br>
+            Mostarda - 1 colher<br>
+            Cebola Grelhada - Metade
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            257 Kcal, 29g(carboidratos), 2g(gorduras), 28g(proteinas), 553g(sódio), 9g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filé de Frango com Antepasto -->
+  <section class="food-section sec-padding fFA" id="fFA">
+    <div class="container">
+      <div class="row">
+        <div class="food-img" data-aos="fade-right">
+          <img src="./img/foods/frangoAntepasto.jpeg" alt="food image">
+        </div>
+        <div class="food-text" data-aos="fade-left">
+          <h3>Filé de Frango com Antepasto</h3>
+          <p>
+            Peito de Frango - 4 unidades<br>
+            Azeite de Oliva - 2 colheres<br>
+            Orégano Seco - 1 colher<br>
+            Pó de Alho - ½ colher<br>
+            Presunto Parma - 150g<br>
+            Salame - 150g<br>
+            Provolone - 4 fatias<br>
+            Parmesão Ralado, Sal e Pimenta do Reino à gosto
+          </p>
+          <p>
+            Informações Nutricionais:<br>
+            568 Kcal, 23g(carboidratos), 23g(gorduras), 64g(proteinas), 819g(sódio), 8g(fibras)
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Janta end -->
+  <!-- food section end -->
+
+  <!-- footer start -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="footer-item" data-aos="fade-up">
+          <h3>meus contatos</h3>
+          <p>(11) 94515-4494</p>
+          <p>luizhsg7@gmail.com</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/luizhsg.assis/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/luiz-assis-4427b51bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copyright">
+          &copy; 2021 - Designed by luizhsg.assis
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <script src="js/aos.js"></script> 
+  <script src="js/script.js"></script>
+  </body>
+</html>
