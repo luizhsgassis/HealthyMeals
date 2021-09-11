@@ -60,7 +60,24 @@ window.addEventListener("load", function() {
     });
 
     // food tabs
-    const foodSection = document.querySelector(".food-section");
+    const btnCLear = document.querySelector(".clear");
+    btnCLear.addEventListener("click", function() {
+        sE.style.display = "none";
+        yGBA.style.display = "none";
+        sBCS.style.display = "none";
+        oPP.style.display = "none";
+        bOQ.style.display = "none";
+        aFL.style.display = "none";
+        hPAS.style.display = "none";
+        fAFP.style.display = "none";
+        sA.style.display = "none";
+        fFA.style.display = "none";
+        bA.style.display = "none";
+        lA.style.display = "none";
+        cFBB.style.display = "none";
+        lBC.style.display = "none";
+        AOS.init();
+    });
     // Lanches Rápidos start
     // Smoothie Espinafre
     const btn_sE = document.querySelector(".btn-sE");
@@ -110,6 +127,18 @@ window.addEventListener("load", function() {
         }
         AOS.init();
     });
+    // Bacon com Ovo e Queijo
+    const btn_bOQ = document.querySelector(".btn-bOQ");
+    const bOQ = document.querySelector(".bOQ");
+    btn_bOQ.addEventListener("click", function() {
+        if (bOQ.style.display === "block") {
+            bOQ.style.display = "none";
+        } else {
+            bOQ.style.display = "block";
+            location.href = "#bOQ";
+        }
+        AOS.init();
+    });
     // Lanches Rápidos end
     // Almoço start
     // Arros com Frango e Legumes
@@ -133,6 +162,18 @@ window.addEventListener("load", function() {
         } else {
             hPAS.style.display = "block";
             location.href = "#hPAS";
+        }
+        AOS.init();
+    });
+    // Lasanha de Batata Doce
+    const btn_lBC = document.querySelector(".btn-lBC");
+    const lBC = document.querySelector(".lBC");
+    btn_lBC.addEventListener("click", function() {
+        if (lBC.style.display === "block") {
+            lBC.style.display = "none";
+        } else {
+            lBC.style.display = "block";
+            location.href = "#lBC";
         }
         AOS.init();
     });
@@ -171,6 +212,42 @@ window.addEventListener("load", function() {
         } else {
             fFA.style.display = "block";
             location.href = "#fFA";
+        }
+        AOS.init();
+    });
+    // Burrito de Abobrinha
+    const btn_bA = document.querySelector(".btn-bA");
+    const bA = document.querySelector(".bA");
+    btn_bA.addEventListener("click", function() {
+        if (bA.style.display === "block") {
+            bA.style.display = "none";
+        } else {
+            bA.style.display = "block";
+            location.href = "#bA";
+        }
+        AOS.init();
+    });
+    // Lasanha de Abobrinha
+    const btn_lA = document.querySelector(".btn-lA");
+    const lA = document.querySelector(".lA");
+    btn_lA.addEventListener("click", function() {
+        if (lA.style.display === "block") {
+            lA.style.display = "none";
+        } else {
+            lA.style.display = "block";
+            location.href = "#lA";
+        }
+        AOS.init();
+    });
+    // Couve-FLor Bang Bang
+    const btn_cFBB = document.querySelector(".btn-cFBB");
+    const cFBB = document.querySelector(".cFBB");
+    btn_cFBB.addEventListener("click", function() {
+        if (cFBB.style.display === "block") {
+            cFBB.style.display = "none";
+        } else {
+            cFBB.style.display = "block";
+            location.href = "#cFBB";
         }
         AOS.init();
     });

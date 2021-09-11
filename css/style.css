@@ -367,6 +367,9 @@ section {
 .menu-section .section-title {
     margin-bottom: 40px;
 }
+.menu-section .clear {
+    margin: auto;
+}
 .menu-tabs {
     padding: 0 15px;
     width: 100%;
