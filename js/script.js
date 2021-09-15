@@ -79,18 +79,6 @@ window.addEventListener("load", function() {
         AOS.init();
     });
     // Lanches Rápidos start
-    // Smoothie Espinafre
-    const btn_sE = document.querySelector(".btn-sE");
-    const sE = document.querySelector(".sE");
-    btn_sE.addEventListener("click", function() {
-        if (sE.style.display === "block") {
-            sE.style.display = "none";
-        } else {
-            sE.style.display = "block";
-            location.href = "#sE";
-        }
-        AOS.init();
-    });
     // Yogurte Grego com Blueberries e Amêndoas
     const btn_yGBA = document.querySelector(".btn-yGBA");
     const yGBA = document.querySelector(".yGBA");
@@ -100,18 +88,6 @@ window.addEventListener("load", function() {
         } else {
             yGBA.style.display = "block";
             location.href = "#yGBA";
-        }
-        AOS.init();
-    });
-    // Strawberry Blueberry Cereal Smoothie
-    const btn_sBCS = document.querySelector(".btn-sBCS");
-    const sBCS = document.querySelector(".sBCS");
-    btn_sBCS.addEventListener("click", function() {
-        if (sBCS.style.display === "block") {
-            sBCS.style.display = "none";
-        } else {
-            sBCS.style.display = "block";
-            location.href = "#sBCS";
         }
         AOS.init();
     });
@@ -178,6 +154,44 @@ window.addEventListener("load", function() {
         AOS.init();
     });
     // Almoço end
+    // Pré-Treino start
+    // Smoothie Espinafre
+    const btn_sE = document.querySelector(".btn-sE");
+    const sE = document.querySelector(".sE");
+    btn_sE.addEventListener("click", function() {
+        if (sE.style.display === "block") {
+            sE.style.display = "none";
+        } else {
+            sE.style.display = "block";
+            location.href = "#sE";
+        }
+        AOS.init();
+    });
+    // Strawberry Blueberry Cereal Smoothie
+    const btn_sBCS = document.querySelector(".btn-sBCS");
+    const sBCS = document.querySelector(".sBCS");
+    btn_sBCS.addEventListener("click", function() {
+        if (sBCS.style.display === "block") {
+            sBCS.style.display = "none";
+        } else {
+            sBCS.style.display = "block";
+            location.href = "#sBCS";
+        }
+        AOS.init();
+    });
+    // Suco de Maçã com Beterraba
+    const btn_sMB = document.querySelector(".btn-sMB");
+    const sMB = document.querySelector(".sMB");
+    btn_sMB.addEventListener("click", function() {
+        if (sMB.style.display === "block") {
+            sMB.style.display = "none";
+        } else {
+            sMB.style.display = "block";
+            location.href = "#sMB";
+        }
+        AOS.init();
+    });
+    // Pré-Treino end
     // Janta start
     // Frango Com Abobrinha E Feijão Preto
     const btn_fAFP = document.querySelector(".btn-fAFP");
